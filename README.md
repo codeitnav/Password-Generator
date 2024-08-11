@@ -1,6 +1,7 @@
 # Password Generator
 
-## Project Link : https://strong-password-generator-tool.vercel.app/
+[**Live Demo**]([https://free-currency-converter-tool.vercel.app/](https://strong-password-generator-tool.vercel.app/))
+
 
 ## Description
 A Password Generator web application built using React. This application allows users to generate random passwords with options to include numbers and special characters. Users can also easily copy the generated password to their clipboard.
