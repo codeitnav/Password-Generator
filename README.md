@@ -1,6 +1,6 @@
 # Password Generator
 
-[**Live Demo**]([https://free-currency-converter-tool.vercel.app/](https://strong-password-generator-tool.vercel.app/))
+[**Live Demo**]((https://strong-password-generator-tool.vercel.app/))
 
 
 ## Description
