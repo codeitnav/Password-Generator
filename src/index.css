@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .App {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #about {
+    margin: 100px auto;
+    max-width: 1200px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #1a202c; /* Dark background  */
+    color: #f7ba2b; /* Text color*/
+    border-radius: 0.5rem;
+  }
+  
+  .card {
+    --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 1rem;
+    overflow: visible;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.8);
+    filter: blur(25px);
+    background: var(--background);
+    transition: opacity .5s;
+  }
+  
+  .card-info {
+    background-color: #181818;
+    color: #f7ba2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: .7rem;
+  }
+  
+  
